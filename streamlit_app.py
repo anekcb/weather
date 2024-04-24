@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import json
+import os
 
 # Set your OpenWeatherMap API key
 #API_KEY = {{ secrets.API }}
