@@ -3,7 +3,7 @@ import requests
 import json
 
 # Set your OpenWeatherMap API key
-API_KEY = API
+API_KEY = {{ secrets.API }}
 
 # Set the base URL for the OpenWeatherMap API
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
